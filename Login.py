@@ -9,7 +9,7 @@ class SeleniumGetCookies:
         self.user = user
         self.pwd = pwd
 
-        # 配置chrome，绕过淘宝的检测
+        # 配置chrome，绕过检测
         option = webdriver.ChromeOptions()
         # option.binary_location = "./chrome/chrome.exe"
         # option.add_argument('--headless')    # 无头模式
